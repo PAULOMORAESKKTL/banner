@@ -1,0 +1,152 @@
+@media (max-width: 1024px) {
+    img { width: calc( 100% / 8 ); }
+    h1 { font-size: 32px; }
+    p { margin-top: 10px; }
+  }
+  
+  @media (max-width: 768px) {
+    img { width: calc( 100% / 4 ); }
+    h1 { font-size: 22px; }
+  }
+  
+  @media (max-width: 425px) {
+    img { width: calc( 100% / 2 ); }
+    h1 { font-size: 18px; }
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    box-sizing: border-box;
+  }
+  .topo{
+    background-color: rgb(49, 220, 236);
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .topo-links{
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    padding: 5px;
+    font-size: 26px;
+
+  }
+  .topo-specia{
+    position: absolute;
+    left: 22%;
+    bottom: 5px;
+    padding: 1px;
+    font-size: 24px;
+  }
+  .topo a{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    text-shadow: 3px 3px 5px rgb(27, 92, 177);
+  }
+  .topo a:hover{
+  color: rgb(49, 220, 236);
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px;
+  background-color: black;
+  }
+  .principal{
+    width: 2024px;
+    height: 700px;
+    background-image: url('../imagens/recepcao.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+  
+  }
+  .principal h1{
+    position: absolute;
+    left: 5%;
+    bottom: 560px;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px rgb(21, 20, 19);
+  }
+  .principal h2{
+    position: absolute;
+    left: 5%;
+    bottom: 520px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 3px 6px rgb(11, 11, 10);
+  }
+  .rodape{
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 6px rgba(0, 238, 255, 0.704);
+  }
+  .rolink{
+    width: 100%;
+    height:59px;
+    text-align: center;
+    padding: 2px;
+  }
+  footer a{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgb(149, 154, 249);
+  }
+  footer a:hover{
+    color: rgb(49, 220, 236);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+    background-color: black;
+    text-shadow: 4px 4px 7px rgb(5, 16, 241);
+    }
+    .sobre{position: relative;
+      width: 100%;
+      height: 500px;
+    }
+    .sobre img{
+      width: 59vh;
+    }
+    .texto{
+      position: absolute;
+      top:20px;
+      right: 170px;
+    }
+    .texto h2{
+      font-size: 40px;
+      text-align: center;
+      text-shadow: 2px 2px 5px rgb(155, 114, 114);
+    }
+    .texto p{
+      font-size: 24px;
+    }
+    ul{
+      position: absolute;
+      top: 280px;
+      right: 300px;
+    }
+    li{
+      font-size: 26px;
+    }
+    .sobre h3{
+      position: absolute;
+      top:210px;
+      right: 180px;
+      font-size: 30px;
+      text-shadow: 2px 2px 6px rgba(33, 33, 31, 0.772);
+    }
